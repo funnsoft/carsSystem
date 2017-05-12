@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.global-layout {
+  width: 100%;
+  margin: 0 auto;
+  min-width: 320px;
+}
+a,a:link,a:active,a:visited {
+  color: initial;
+  text-decoration: none;
+  font-size:.8rem;
+}
+ul,
+ol {
+  list-style: none;
+}
+img {
+  vertical-align: middle;
+}
+input {
+  height: 1.75em;
+  line-height: normal;
+  font-size: 12px;
+  font: -webkit-small-control;
+  letter-spacing: normal;
+  word-spacing: normal;
+  text-transform: none;
+  text-indent: 0px;
+  text-shadow: none;
+}
+@media screen{
+  #main {
+    max-width: 640px;
+  }
+}
+
+
